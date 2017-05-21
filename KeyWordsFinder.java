@@ -37,8 +37,8 @@ public class KeyWordsFinder {
     private static void Menu() {
         try {
             Scanner in = new Scanner(System.in);
-            //List of words that is common in text but meaningless. For example "the" is a stopword.
-            //You can find mine in here:
+            
+            //You can find my stopwordlist  in here: https://gist.github.com/GrzechuG/95336fd8083ae1ac263cffc80c40dbe2
             System.out.println("Enter stopword list location:");
             String inNextLine=in.nextLine();
              ArrayList stopwords=new ArrayList();
